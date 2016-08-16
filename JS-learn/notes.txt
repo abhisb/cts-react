@@ -15,6 +15,13 @@ npm install live-server -g
 //-------------------------------------------------
 
 
-
 1. JS - data types/structures
+
+2. JS - Execution Contexts
+
+3. JS - 'this' keyword
+
+
+//--------------------------------------------------------------
+
 
