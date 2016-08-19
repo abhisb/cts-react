@@ -1,0 +1,45 @@
+
+
+
+--> globals naming collisions
+
+
+
+module design pattern
+----------------------
+
+
+  --> self executable func
+
+---------------------------------------------------------------
+
+
+  JS communities created some standards to define & load JS modules 
+
+  1. AMD ( Asycn Module Definitions )  spec
+
+
+     define();
+     require()
+
+
+
+  2. commonJS
+
+
+     --> popular  and simple
+     --> default module-system in Node.js envi
+
+
+     Notes :
+
+     --> every .js file is an module.
+
+
+
+
+     
+
+
+     
+

@@ -1,0 +1,15 @@
+{
+    "name": "es6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "",
+    "dependencies": {},
+    "devDependencies": {
+        "babel-cli": "^6.0.0"
+    },
+    "scripts": {
+        "transpile": "babel --watch modules -d dist"
+    },
+    "author": "",
+    "license": "ISC"
+}
