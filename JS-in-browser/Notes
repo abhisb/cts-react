@@ -1,0 +1,167 @@
+
+
+
+wat JS can do on HTML-page in browser-envi ?
+
+
+   JS-lang using Web-APIs can bring any dynamic-functionality.
+
+
+    Web-APIs 
+
+    e.g    DOM , XHR , Timer , Etc...
+
+
+   all Web-APIs implemented and abstracted as JS-objects and funtions by 'browser's
+
+   most Web APIs are w3c standards
+
+  using DOM API
+  --------------- 
+  --> can create/select/update/delete HTML elements
+  --> can change element's attribute values
+  --> can change element's style
+  --> can change element's text
+  --> can listen events on HTML elements
+  --> can create rich UI components on HTML page
+
+  using XHR API
+  --------------
+  --> can communicate with sever async , update result in existing page ( AJAX )
+
+
+  using Timer API
+  ---------------
+
+  setTimeout,setInterval
+
+
+  HTMl5  APIs
+  --------------
+
+   --> Multimedia ( Audio , video )
+   --> Storage API
+
+        localStorage,sessionStorage
+        IndexDB
+
+  --> Geo
+  --> canvas
+
+  --> WebGL
+
+
+  https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+
+  
+
+-----------------------------------------------------------------------------
+
+
+ JS-lang is
+
+
+ --> single-threaded lang
+ --> can implement better concurrency
+ --> can do Non-Blocking IO
+
+------------------------------------------------------------------------
+
+ --> callback func
+ --> asyc function execution
+ --> Event-Loop
+
+ -------------------------------------------------------------------------
+
+ browser's javascript engine based ECMA sepc
+
+
+ chrome  --> v8 ( c++ )
+ firfox  --> rhino ( java )
+ IE      --> chakra
+ safari  --> nitro
+
+
+ non-browser envi
+
+ node.JS --> v8
+ JVM     --> nashorn
+ mongoDb
+ Apache CoucjDB
+
+
+--------------------------------------------------------------------
+
+browser:  e.g chrome
+
+
+     a. JavaScript Engine ( v8 )
+
+         call-stack --> to execute contexts
+         heap       --> to keep objects 
+
+     b. Web APIs ( DOM , XHR , .. )
+
+     c. message/callback queue
+
+     d. event-loop
+
+
+
+-----------------------------------------------------------------------
+
+
+
+
+ limitations / complexities using Plain-JS ( your lcode )
+ in browser envi :-
+
+
+ --> browser compatibility.
+ --> too much script  for simple oprn
+ --> performance on DOM manipulation 
+ --> memory management
+ --> code oraganization 
+
+ --------------------------------------
+
+ solns :
+
+   --> using JS libraries and F.Ws
+
+
+     1. jQuery  
+
+        limitations
+
+        --> Low-Level ( close to DOM )
+        --> code oragnization is difficult
+        --> no declarative programming.
+
+        --> 2-way data-binding support
+
+    2. Knockout JS  
+
+        --> declerative + data-binding
+        --> based on MVVM pappern
+
+   -------------------------------------
+
+   Frameworks
+
+   --> backbone
+   --> Angular
+   --> Ember
+
+
+   --> Dojo
+   --> ExtJS
+
+   ---------------------------------------
+
+   ReactJS
+
+   ---------------------------------------
+
+
+     
