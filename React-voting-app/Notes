@@ -1,0 +1,21 @@
+
+
+
+
+
+// points
+
+1. Think about and organize your app into components
+2. JSX and render method
+3. Data Flow from parent to childrens through props ( immutable )
+4. Event Flow from children to parent thru function
+5. state vs props
+6. How to manipulate state
+7. Utilizing React life-cycle methods
+
+
+  exercise:-
+
+
+  1. down-voting capability.
+  2. add 'sort direction' button
