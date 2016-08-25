@@ -1,0 +1,38 @@
+
+
+
+time-tracking appln
+---------------------
+
+Identify the minimal (but complete) representation of UI state
+
+statefull data
+
+ -> The list of timers and properties of each timer
+ -> whether or not the edit form of a timer is open
+ -> whether or not the create form is open
+
+ Identify where your state should live 
+
+ --> Timer-data will be owned and managed by 'TimersDashbord'
+ --> Each 'EditableTimer' will manage the state of its 'timer edit form '
+ --> The ToggleableTimerForm' will manage the state of its form visibility.
+
+ ----------------------------------------------------------
+
+ Inverse data-flow
+
+ children communicate with parents by calling 
+ functions that are handed to them via props
+
+ -----------------------------------------------------------
+
+
+
+ state  and props
+ ------------------
+
+ state  -->  comp's data and mutable
+ props  -->  input/arg from parent comp to child-comp  and immutable
+
+ ----------------------------------------------------
