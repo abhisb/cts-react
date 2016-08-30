@@ -1,0 +1,34 @@
+
+
+
+Virtual DOM  --> tree of React Elements
+
+
+2-ways to create 'React Elements ' ( components ) 
+
+
+way-1:  pure-javascript
+---------------------------
+var ele= React.createElement('type',props,children');
+
+way-2:  JSX   ( recommended )
+---------------------------------
+
+var Class=React.createClass({
+    render:function(){
+        return (
+            <div>
+                .....
+            </div>
+        );
+    }
+});
+
+var ele=(<Class prop1={} prop2={}/>);
+
+// html 
+
+var ele=(<htmltag attr1={} attr1={}/>);
+
+
+//-----------------------------------------------
