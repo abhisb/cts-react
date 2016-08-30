@@ -1,0 +1,52 @@
+
+
+
+How to manage 'state' using Flux pattern ?
+
+
+
+ e.g  Counter-App
+
+ state
+ ------
+ count
+
+ actions
+ ------------
+ IncrementAction
+ DecrementAction
+
+
+ ------------------------------------------------
+
+
+ Action  ----> Dispatcher  --> Store --> View
+
+ -------------------------------------------------
+
+
+ counter's Actions :
+
+ {
+    type:'INCREMENT'
+ }
+
+ {
+    type:'DECREMENT'
+ }
+
+ --------------------------
+
+ store:
+
+      reduce(state,action){
+
+        execute actions and return new-state
+
+      }
+
+------------------------------      
+
+
+
+
