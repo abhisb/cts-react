@@ -1,0 +1,29 @@
+
+
+
+--------------------------------------------------------
+
+// redux -   ( state management for client-side appln )
+
+  1. actions
+  2. reducers
+  3. store   ( dispatcher , subscribe , getState )
+      
+-------------------------------------------------
+
+react - View-Components
+
+      App
+
+         a.Header
+           
+           i.TodoInputText
+         
+         
+         b.MainSection
+            TodoItem(s)
+            
+            Footer
+
+---------------------------------------------------        
+
