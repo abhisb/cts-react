@@ -1,0 +1,28 @@
+
+
+
+prior to ES6
+
+
+  popular javascript module standards
+  
+  
+  1. AMD
+  2. commonJS
+  
+  
+  ---------------------------------
+  
+  
+  commonJS
+  
+  notes:
+  
+  --> every .js file is an module
+  --> we need to export explicitly to others modules with 'module.export'
+  --> import with 'require'
+  
+  
+  NodeJS uses 'commonJS' as an default module-standard at present.
+  
+  -------------------------------------------------------

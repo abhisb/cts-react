@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NG</title>
+<link href="bower_components/bootstrap/dist/css/bootstrap.css"
+	rel="stylesheet">
+<style type="text/css">
+.ng-scope {
+	border: 1px solid red;
+	margin: 10px;
+	padding: 15px;
+}
+</style>
+</head>
+<body class="container">
+
+	<div class="page-header">NG- digest cycle</div>
+
+	<div ng-app="demo">
+	
+		topic : {{topic}}
+
+		<div ng-controller="UserController">
+		
+		Name : <input ng-model="user">
+		       	<button class="btn btn-primary" ng-click="resetUser()">Reset</button>
+		       	<button class="btn btn-primary" ng-click="getUser()">get-name ( ng-click )</button>
+		       	<button class="btn btn-primary" onclick="getUser()">get-name ( on-click )</button>
+		       <hr/>
+		       
+		       Hello <span ng-bind="user"></span>
+		
+		</div>
+
+	</div>
+
+
+
+	<script type="text/javascript"
+		src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>

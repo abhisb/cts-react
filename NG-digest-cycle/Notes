@@ -1,0 +1,39 @@
+
+
+
+  
+  
+   NG - lifecycle
+   --------------
+   
+   
+   ref : https://www.toptal.com/angular-js/angular-js-demystifying-directives
+   ref : https://github.com/Pasvaz/bindonce
+   
+   
+   
+   
+   NG - directive life-cycle:-
+   
+   
+     a. compilation-phase
+     
+     b. controller and pre-link phase
+     
+     c. post-link - phase
+     
+        will register 'watchers' ( listeners ) on every DOM element where data-binding required  
+        
+       
+        watchers read/write model data on DOM elements when model is dirty on either side.
+        
+        
+        all watchers are executed by 'digest-loop' 
+        
+        
+       -------------------------------------------- 
+       
+       
+     
+   
+   
